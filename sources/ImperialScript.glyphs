@@ -1,7 +1,8 @@
 {
 .appVersion = "1352";
 DisplayStrings = (
-"A©B"
+abcdefghijklmnopqrstuvwxyz,
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
 );
 copyright = "Copyright 2008 The Luxurious Project Authors (https://github.com/googlefonts/imperial-script)";
 customParameters = (
@@ -112,13 +113,14 @@ name = liga;
 fontMaster = (
 {
 alignmentZones = (
-"{588, 36}",
-"{326, 29}",
-"{-2, -14}",
-"{-257, -10}"
+"{620, 10}",
+"{615, 10}",
+"{325, 10}",
+"{0, -10}",
+"{-255, -10}"
 );
-ascender = 872;
-capHeight = 600;
+ascender = 615;
+capHeight = 620;
 customParameters = (
 {
 name = typoAscender;
@@ -165,7 +167,7 @@ name = underlineThickness;
 value = 4;
 }
 );
-descender = -321;
+descender = -255;
 guideLines = (
 {
 locked = 1;
@@ -202,7 +204,7 @@ verticalStems = (
 );
 weightValue = 400;
 widthValue = 5;
-xHeight = 320;
+xHeight = 325;
 }
 );
 glyphs = (
