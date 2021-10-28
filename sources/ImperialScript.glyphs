@@ -4,7 +4,7 @@ DisplayStrings = (
 abcdefghijklmnopqrstuvwxyz,
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 );
-copyright = "Copyright 2008 The Luxurious Project Authors (https://github.com/googlefonts/imperial-script)";
+copyright = "Copyright 2008 The Imperial Script Project Authors (https://github.com/googlefonts/imperial-script)";
 customParameters = (
 {
 name = panose;
@@ -124,31 +124,35 @@ capHeight = 620;
 customParameters = (
 {
 name = typoAscender;
-value = 872;
+value = 900;
 },
 {
 name = typoDescender;
-value = -321;
+value = -310;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 872;
-},
-{
-name = winDescent;
-value = 321;
-},
-{
 name = hheaAscender;
-value = 872;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -321;
+value = -310;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 900;
+},
+{
+name = winDescent;
+value = 310;
 },
 {
 name = strikeoutPosition;
@@ -34655,5 +34659,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
