@@ -22,7 +22,9 @@ DisplayStrings = (
 "/quotedblleft single\"",
 "/quotedblleft/quotedblright/quoteleft",
 "\"pocahontas\"",
-"Running's/space man."
+"Running's/space man.",
+"/nbspace",
+"/space"
 );
 classes = (
 {
@@ -348,14 +350,13 @@ unicode = 0020;
 },
 {
 glyphname = nbspace;
-lastChange = "2021-09-12 05:17:05 +0000";
+lastChange = "2021-10-29 07:30:05 +0000";
 layers = (
 {
 layerId = "171CD109-D0B0-4A7B-9E5C-4BA88B29FB0C";
-width = 39;
+width = 158;
 }
 );
-note = nbspace;
 unicode = 00A0;
 },
 {
