@@ -26,7 +26,8 @@ DisplayStrings = (
 "/nbspace",
 "/space",
 "jjusthis@gmail.com",
-"oô"
+"oô",
+"/zero.lf"
 );
 classes = (
 {
@@ -77,7 +78,7 @@ name = glyphOrder;
 value = (
 .notdef,
 CR,
-NULL,
+.null,
 space,
 nbspace
 );
@@ -116,7 +117,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT.case;\012} locl_latn_2;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT.case;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -143,6 +144,10 @@ name = case;
 automatic = 1;
 code = "lookupflag IgnoreMarks;\012sub f f i by f_f_i;\012sub f f l by f_f_l;\012sub f f by f_f;\012sub f i by fi;\012sub f l by fl;\012";
 name = liga;
+},
+{
+code = "sub zero by zero.lf;\012sub one by one.lf;\012sub two by two.lf;\012sub three by three.lf;\012sub four by four.lf;\012sub five by five.lf;\012sub six by six.lf;\012sub seven by seven.lf;\012sub eight by eight.lf;\012sub nine by nine.lf;\012";
+name = lnum;
 }
 );
 fontMaster = (
@@ -328,8 +333,8 @@ note = CR;
 unicode = 000D;
 },
 {
-glyphname = NULL;
-lastChange = "2021-10-29 07:10:40 +0000";
+glyphname = .null;
+lastChange = "2021-11-05 03:38:30 +0000";
 layers = (
 {
 layerId = "171CD109-D0B0-4A7B-9E5C-4BA88B29FB0C";
@@ -21309,20 +21314,123 @@ unicode = 0039;
 },
 {
 glyphname = zero.lf;
-lastChange = "2021-10-29 07:11:17 +0000";
+lastChange = "2021-11-05 03:29:36 +0000";
 layers = (
 {
-components = (
+layerId = "171CD109-D0B0-4A7B-9E5C-4BA88B29FB0C";
+paths = (
 {
-name = zero;
+closed = 1;
+nodes = (
+"229 -33 OFFCURVE",
+"309 -2 OFFCURVE",
+"384 61 CURVE SMOOTH",
+"453 117 OFFCURVE",
+"505 188 OFFCURVE",
+"540 272 CURVE SMOOTH",
+"556 311 OFFCURVE",
+"564 350 OFFCURVE",
+"564 391 CURVE SMOOTH",
+"564 424 OFFCURVE",
+"558 453 OFFCURVE",
+"545 476 CURVE SMOOTH",
+"529 505 OFFCURVE",
+"506 520 OFFCURVE",
+"475 520 CURVE SMOOTH",
+"440 520 OFFCURVE",
+"406 505 OFFCURVE",
+"375 476 CURVE SMOOTH",
+"344 449 OFFCURVE",
+"325 418 OFFCURVE",
+"318 383 CURVE SMOOTH",
+"314 368 OFFCURVE",
+"313 353 OFFCURVE",
+"313 337 CURVE SMOOTH",
+"313 313 OFFCURVE",
+"317 292 OFFCURVE",
+"326 275 CURVE SMOOTH",
+"337 253 OFFCURVE",
+"354 242 OFFCURVE",
+"376 242 CURVE SMOOTH",
+"390 242 OFFCURVE",
+"396 244 OFFCURVE",
+"396 248 CURVE SMOOTH",
+"396 251 OFFCURVE",
+"395 252 OFFCURVE",
+"391 252 CURVE SMOOTH",
+"390 252 OFFCURVE",
+"388 252 OFFCURVE",
+"384 251 CURVE SMOOTH",
+"381 250 OFFCURVE",
+"379 250 OFFCURVE",
+"377 250 CURVE SMOOTH",
+"343 250 OFFCURVE",
+"326 277 OFFCURVE",
+"326 330 CURVE SMOOTH",
+"326 347 OFFCURVE",
+"328 363 OFFCURVE",
+"331 380 CURVE SMOOTH",
+"338 410 OFFCURVE",
+"353 438 OFFCURVE",
+"376 461 CURVE SMOOTH",
+"401 487 OFFCURVE",
+"429 500 OFFCURVE",
+"459 500 CURVE SMOOTH",
+"494 500 OFFCURVE",
+"512 477 OFFCURVE",
+"512 429 CURVE SMOOTH",
+"512 388 OFFCURVE",
+"499 338 OFFCURVE",
+"474 279 CURVE SMOOTH",
+"455 234 OFFCURVE",
+"433 194 OFFCURVE",
+"409 158 CURVE SMOOTH",
+"377 113 OFFCURVE",
+"340 73 OFFCURVE",
+"298 41 CURVE SMOOTH",
+"246 0 OFFCURVE",
+"198 -20 OFFCURVE",
+"152 -20 CURVE SMOOTH",
+"127 -20 OFFCURVE",
+"108 -9 OFFCURVE",
+"95 14 CURVE SMOOTH",
+"84 32 OFFCURVE",
+"79 55 OFFCURVE",
+"79 82 CURVE SMOOTH",
+"79 128 OFFCURVE",
+"93 174 OFFCURVE",
+"122 222 CURVE SMOOTH",
+"211 372 OFFCURVE",
+"289 463 OFFCURVE",
+"355 495 CURVE SMOOTH",
+"362 499 OFFCURVE",
+"373 503 OFFCURVE",
+"386 506 CURVE",
+"389 506 OFFCURVE",
+"390 508 OFFCURVE",
+"390 510 CURVE SMOOTH",
+"390 513 OFFCURVE",
+"389 514 OFFCURVE",
+"386 514 CURVE SMOOTH",
+"304 514 OFFCURVE",
+"222 465 OFFCURVE",
+"140 366 CURVE SMOOTH",
+"61 271 OFFCURVE",
+"22 181 OFFCURVE",
+"22 96 CURVE SMOOTH",
+"22 10 OFFCURVE",
+"62 -33 OFFCURVE",
+"144 -33 CURVE SMOOTH"
+);
 }
 );
-layerId = "171CD109-D0B0-4A7B-9E5C-4BA88B29FB0C";
 width = 575;
 }
 );
 leftKerningGroup = zero;
+leftMetricsKey = zero;
 rightKerningGroup = zero;
+rightMetricsKey = zero;
 },
 {
 glyphname = one.lf;
@@ -37253,28 +37361,6 @@ layerId = "171CD109-D0B0-4A7B-9E5C-4BA88B29FB0C";
 width = 220;
 }
 );
-},
-{
-glyphname = HT;
-lastChange = "2021-10-29 07:10:40 +0000";
-layers = (
-{
-layerId = "171CD109-D0B0-4A7B-9E5C-4BA88B29FB0C";
-width = 158;
-}
-);
-note = HT;
-},
-{
-glyphname = DC1;
-lastChange = "2021-10-29 07:10:40 +0000";
-layers = (
-{
-layerId = "171CD109-D0B0-4A7B-9E5C-4BA88B29FB0C";
-width = 1985;
-}
-);
-note = DC1;
 }
 );
 instances = (
@@ -37816,5 +37902,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 10;
 }
