@@ -1,5 +1,5 @@
 {
-.appVersion = "1357";
+.appVersion = "1352";
 DisplayStrings = (
 "l/periodcentered.loclCAT l",
 "L/periodcentered.loclCAT.case",
@@ -159,11 +159,11 @@ capHeight = 620;
 customParameters = (
 {
 name = typoAscender;
-value = 900;
+value = 880;
 },
 {
 name = typoDescender;
-value = -310;
+value = -330;
 },
 {
 name = typoLineGap;
@@ -171,11 +171,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 900;
+value = 880;
 },
 {
 name = hheaDescender;
-value = -310;
+value = -330;
 },
 {
 name = hheaLineGap;
@@ -183,11 +183,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 900;
+value = 854;
 },
 {
 name = winDescent;
-value = 310;
+value = 524;
 },
 {
 name = strikeoutPosition;
@@ -37816,5 +37816,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
